@@ -8,7 +8,8 @@ package io.hel.templatemethod;
 public class Client {
     public static void main(String[] args) {
         GrindDrinks coffee = new Coffee();
-//        coffee.make();
+        // TODO
+        coffee.make();
         coffee = new PeanutSoyMilk();
         coffee.make();
     }
